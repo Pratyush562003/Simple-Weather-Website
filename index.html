@@ -25,8 +25,8 @@
                 return;
             }
             
-            let apiKey = 'bda760095e1d8c5dc8e94eb1af58633d';
-            let url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+            let apiKey = '2ff6f80cb4324060b1663853251602';
+            let url = `http://api.weatherapi.com/v1/current.json?key=2ff6f80cb4324060b1663853251602&q=${location}&aqi=yes`;
             
             try {
                 let response = await fetch(url);
